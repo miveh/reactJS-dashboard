@@ -25,7 +25,7 @@ function DashboardHeader() {
         background: (theme) => theme.palette.background.paper,
       }}
     >
-      <Toolbar>
+      <Toolbar sx={{ gap: 1 }}>
         <Box fullWidth flexGrow={1}>
           <TextField
             fullWidth
@@ -38,14 +38,14 @@ function DashboardHeader() {
             }}
           />
         </Box>
-        <Box display={"flex"} gap={2}>
+        <Box display={"flex"} gap={1}>
           <IconButton>
             <PeopleIcon />
           </IconButton>
           <IconButton>
             <NotificationsActiveIcon />
           </IconButton>
-          <Avatar />
+          <Avatar sx={{ width: "40px", height: "40px" }} />
         </Box>
       </Toolbar>
     </AppBar>
