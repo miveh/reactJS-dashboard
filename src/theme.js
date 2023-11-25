@@ -88,6 +88,9 @@ const theme = createTheme({
     secondary: {
       main: "#19857b",
     },
+    neutral: {
+      900: "#111827",
+    },
   },
 });
 
