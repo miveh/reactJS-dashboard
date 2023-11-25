@@ -1,11 +1,10 @@
-import { useState } from "react";
-import { Button, Typography } from "@mui/material";
-import { DashboardLayout } from "./components";
+import { RouterProvider } from "react-router-dom";
+import { router } from "./router/router";
 
 function App() {
   return (
     <>
-      <DashboardLayout>test</DashboardLayout>
+      <RouterProvider router={router} />
     </>
   );
 }
