@@ -3,14 +3,14 @@ import React from "react";
 import DashboardHeader from "./DashboardHeader";
 import DashboardSideBar from "./DashboardSideBar";
 
-export function DashboardLayout(props) {
+export function DashboardLayout({ children }) {
   return (
     <Box sx={{ display: "flex" }}>
       <CssBaseline />
       <DashboardHeader />
       <DashboardSideBar />
       <Box component={"main"} sx={{ flexGrow: 1, p: 3 }}>
-        {props.children}
+        {children}
       </Box>
     </Box>
   );
