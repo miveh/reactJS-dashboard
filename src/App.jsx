@@ -5,7 +5,7 @@ import { DashboardLayout } from "./components";
 function App() {
   return (
     <>
-      <DashboardLayout />
+      <DashboardLayout>test</DashboardLayout>
     </>
   );
 }
