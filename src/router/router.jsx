@@ -1,5 +1,9 @@
 import { createBrowserRouter } from "react-router-dom";
 import { DashboardLayout } from "../components";
+import { Loadable } from "../components/loadable/Loadable";
+import { lazy } from "react";
+
+const Dashboard = Loadable(lazy(() => import("../page/dashboard/Dashboard")));
 
 export const router = createBrowserRouter([
   {
@@ -8,7 +12,7 @@ export const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <div>home</div>,
+        element: <Dashboard />,
       },
       {
         path: "customer",
