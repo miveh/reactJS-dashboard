@@ -9,6 +9,7 @@ import {
 } from "@mui/material";
 import { drawerWidth } from "./constant";
 import { LogoIcon } from "../../../assets/svg/LogoIcon";
+import SidebarList from "./SidebarList";
 
 function DashboardSideBar() {
   return (
@@ -44,6 +45,7 @@ function DashboardSideBar() {
           rghdkghdgd
         </Typography>
       </Box>
+      <SidebarList />
     </Drawer>
   );
 }

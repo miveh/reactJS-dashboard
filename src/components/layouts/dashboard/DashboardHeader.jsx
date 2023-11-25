@@ -26,7 +26,7 @@ function DashboardHeader() {
       }}
     >
       <Toolbar sx={{ gap: 1 }}>
-        <Box fullWidth flexGrow={1}>
+        <Box flexGrow={1}>
           <TextField
             fullWidth
             InputProps={{
