@@ -93,6 +93,10 @@ const theme = createTheme({
       400: "#9CA3AF",
       900: "#111827",
     },
+    background: {
+      default: "#e5e5e5",
+      paper: "#fff",
+    },
   },
 });
 

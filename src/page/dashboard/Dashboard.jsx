@@ -14,7 +14,7 @@ import { DataCard } from "../../components";
 
 function Dashboard() {
   return (
-    <Box sx={{ mt: 3 }}>
+    <Box sx={{ mt: 3, bgcolor: (theme) => theme.palette.background.default }}>
       <Grid container spacing={4}>
         <Grid item xs={12} sm={6} md={4} lg={3}>
           <DataCard
@@ -76,6 +76,12 @@ function Dashboard() {
             }
           />
         </Grid>
+      </Grid>
+
+      <Grid container spacing={4}>
+        <Grid item xs={12} md={4} lg={3}></Grid>
+
+        <Grid item xs={12} md={8} lg={9}></Grid>
       </Grid>
     </Box>
   );
