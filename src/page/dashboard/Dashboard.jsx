@@ -8,9 +8,9 @@ import {
   Typography,
 } from "@mui/material";
 
+import { DataCard, LatestProductList } from "../../components";
 import People from "@mui/icons-material/People";
 import React from "react";
-import { DataCard } from "../../components";
 
 function Dashboard() {
   return (
@@ -79,7 +79,9 @@ function Dashboard() {
       </Grid>
 
       <Grid container spacing={4}>
-        <Grid item xs={12} md={4} lg={3}></Grid>
+        <Grid item xs={12} md={4} lg={3}>
+          <LatestProductList />
+        </Grid>
 
         <Grid item xs={12} md={8} lg={9}></Grid>
       </Grid>

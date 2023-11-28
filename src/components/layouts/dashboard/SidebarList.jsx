@@ -5,7 +5,6 @@ import {
   ListItemIcon,
   ListItemText,
 } from "@mui/material";
-import SignalCellularAltIcon from "@mui/icons-material/SignalCellularAlt";
 import React from "react";
 import { MenuItems } from "./constant";
 
