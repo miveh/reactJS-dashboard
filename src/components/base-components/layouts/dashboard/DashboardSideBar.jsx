@@ -8,7 +8,7 @@ import {
   Typography,
 } from "@mui/material";
 import { drawerWidth } from "./constant";
-import { LogoIcon } from "../../../assets/svg/LogoIcon";
+import { LogoIcon } from "../../../../assets/svg/LogoIcon";
 import SidebarList from "./SidebarList";
 
 function DashboardSideBar() {
