@@ -89,6 +89,7 @@ const theme = createTheme({
       main: "#19857b",
     },
     neutral: {
+      100: "#F3F4F6",
       300: "#D1D5DB",
       400: "#9CA3AF",
       900: "#111827",

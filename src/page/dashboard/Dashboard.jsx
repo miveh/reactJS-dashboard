@@ -11,6 +11,7 @@ import {
 import { DataCard, LatestProductList } from "../../components";
 import People from "@mui/icons-material/People";
 import React from "react";
+import { LatestOrdersTable } from "../../components/widjet/latest-order-table/LatestOrdersTable";
 
 function Dashboard() {
   return (
@@ -83,7 +84,9 @@ function Dashboard() {
           <LatestProductList />
         </Grid>
 
-        <Grid item xs={12} md={8} lg={9}></Grid>
+        <Grid item xs={12} md={8} lg={9}>
+          <LatestOrdersTable />
+        </Grid>
       </Grid>
     </Box>
   );
